@@ -1,0 +1,93 @@
+﻿生成启动时间为 2015/8/7 11:39:12。
+     1>项目“E:\SpinePartcile\cocos2d\cocos\ui\proj.win32\libGUI.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\ /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\audio\include /I"E:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\editor-support" /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\external /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\extensions /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\platform\win32 /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\platform\desktop /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"E:\SpinePartcile\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\platform\ /nologo /W3 /WX- /O1 /Oi /Oy- /D WIN32 /D _WINDOWS /D _LIB /D COCOS2DXWIN32_EXPORTS /D GL_GLEXT_PROTOTYPES /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release.win32\\" /Fd"Release.win32\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\CCProtectedNode.cpp ..\CocosGUI.cpp ..\UIButton.cpp ..\UICheckBox.cpp ..\UIDeprecated.cpp ..\UIHBox.cpp ..\UIHelper.cpp ..\UIImageView.cpp ..\UILayout.cpp ..\UILayoutManager.cpp ..\UILayoutParameter.cpp ..\UIListView.cpp ..\UILoadingBar.cpp ..\UIPageView.cpp ..\UIRelativeBox.cpp ..\UIRichText.cpp ..\UIScrollView.cpp ..\UISlider.cpp ..\UIText.cpp ..\UITextAtlas.cpp ..\UITextBMFont.cpp ..\UITextField.cpp ..\UIVBox.cpp ..\UIWidget.cpp
+         CCProtectedNode.cpp
+     1>..\CCProtectedNode.cpp(376): warning C4244: “=”: 从“double”转换到“GLubyte”，可能丢失数据
+     1>..\CCProtectedNode.cpp(392): warning C4244: “=”: 从“double”转换到“GLubyte”，可能丢失数据
+     1>..\CCProtectedNode.cpp(393): warning C4244: “=”: 从“double”转换到“GLubyte”，可能丢失数据
+     1>..\CCProtectedNode.cpp(394): warning C4244: “=”: 从“double”转换到“GLubyte”，可能丢失数据
+         CocosGUI.cpp
+     1>E:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         UIButton.cpp
+     1>E:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>..\UIButton.cpp(730): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\UIButton.cpp(733): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\UIButton.cpp(738): warning C4244: “return”: 从“const int”转换到“float”，可能丢失数据
+         UICheckBox.cpp
+         UIDeprecated.cpp
+         UIHBox.cpp
+         UIHelper.cpp
+         UIImageView.cpp
+     1>..\UIImageView.cpp(178): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>..\UIImageView.cpp(191): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+         UILayout.cpp
+     1>..\UILayout.cpp(1117): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\UILayout.cpp(1124): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\UILayout.cpp(1132): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>..\UILayout.cpp(1150): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\UILayout.cpp(1157): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\UILayout.cpp(1165): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+         UILayoutManager.cpp
+         UILayoutParameter.cpp
+         UIListView.cpp
+         UILoadingBar.cpp
+         UIPageView.cpp
+         UIRelativeBox.cpp
+         UIRichText.cpp
+     1>E:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>..\UIRichText.cpp(320): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+         UIScrollView.cpp
+         UISlider.cpp
+     1>..\UISlider.cpp(400): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>..\UISlider.cpp(410): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+         UIText.cpp
+     1>E:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>..\UIText.cpp(129): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>..\UIText.cpp(177): warning C4244: “参数”: 从“const float”转换到“unsigned int”，可能丢失数据
+     1>..\UIText.cpp(304): warning C4244: “参数”: 从“float”转换到“unsigned int”，可能丢失数据
+         UITextAtlas.cpp
+     1>E:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         正在生成代码...
+     1>e:\spinepartcile\cocos2d\cocos\ui\uilayout.cpp(1764): warning C4715: “cocos2d::ui::Layout::isWidgetAncestorSupportLoopFocus”: 不是所有的控件路径都返回值
+         正在编译...
+         UITextBMFont.cpp
+     1>E:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         UITextField.cpp
+     1>E:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>..\UITextField.cpp(549): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>..\UITextField.cpp(804): warning C4244: “参数”: 从“float”转换到“unsigned int”，可能丢失数据
+         UIVBox.cpp
+         UIWidget.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\SpinePartcile\Release.win32\libGUI.lib" /NOLOGO /LTCG Release.win32\CCProtectedNode.obj
+         Release.win32\CocosGUI.obj
+         Release.win32\UIButton.obj
+         Release.win32\UICheckBox.obj
+         Release.win32\UIDeprecated.obj
+         Release.win32\UIHBox.obj
+         Release.win32\UIHelper.obj
+         Release.win32\UIImageView.obj
+         Release.win32\UILayout.obj
+         Release.win32\UILayoutManager.obj
+         Release.win32\UILayoutParameter.obj
+         Release.win32\UIListView.obj
+         Release.win32\UILoadingBar.obj
+         Release.win32\UIPageView.obj
+         Release.win32\UIRelativeBox.obj
+         Release.win32\UIRichText.obj
+         Release.win32\UIScrollView.obj
+         Release.win32\UISlider.obj
+         Release.win32\UIText.obj
+         Release.win32\UITextAtlas.obj
+         Release.win32\UITextBMFont.obj
+         Release.win32\UITextField.obj
+         Release.win32\UIVBox.obj
+         Release.win32\UIWidget.obj
+         libGUI.vcxproj -> E:\SpinePartcile\Release.win32\libGUI.lib
+     1>已完成生成项目“E:\SpinePartcile\cocos2d\cocos\ui\proj.win32\libGUI.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:58.63

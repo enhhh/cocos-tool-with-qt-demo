@@ -1,0 +1,4 @@
+/cocos2d/cocos/editor-support/spine/proj.win32/Release.win32
+*.obj
+/cocos2d/cocos/editor-support/spine/proj.win32/Debug.win32/*.log
+/cocos2d/external/Box2D/proj.win32/Release.win32/libBox2D.tlog/*.tlog

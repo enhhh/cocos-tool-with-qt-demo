@@ -1,0 +1,298 @@
+﻿生成启动时间为 2015/8/7 11:38:27。
+     1>项目“E:\SpinePartcile\cocos2d\cocos\editor-support\cocostudio\proj.win32\libCocosStudio.vcxproj”在节点 4 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\ /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\audio\include /I"E:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\editor-support" /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\external /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\external\tinyxml2 /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\extensions /I"E:\SpinePartcile\cocos2d\cocos\2d\..\..\external\win32-specific\zlib\include" /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\platform\win32 /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\platform\desktop /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"E:\SpinePartcile\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /IE:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\platform\ /nologo /W3 /WX- /O1 /Oi /Oy- /D WIN32 /D _WINDOWS /D _LIB /D COCOS2DXWIN32_EXPORTS /D GL_GLEXT_PROTOTYPES /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release.win32\\" /Fd"Release.win32\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\ActionTimeline\CCActionTimeline.cpp ..\ActionTimeline\CCFrame.cpp ..\ActionTimeline\CCNodeReader.cpp ..\ActionTimeline\CCActionTimelineCache.cpp ..\ActionTimeline\CCTimeLine.cpp ..\CCActionFrame.cpp ..\CCActionFrameEasing.cpp ..\CCActionManagerEx.cpp ..\CCActionNode.cpp ..\CCActionObject.cpp ..\CCArmature.cpp ..\CCArmatureAnimation.cpp ..\CCArmatureDataManager.cpp ..\CCArmatureDefine.cpp ..\CCBatchNode.cpp ..\CCBone.cpp ..\CCColliderDetector.cpp ..\CCComAttribute.cpp ..\CCComAudio.cpp ..\CCComController.cpp ..\CCComRender.cpp ..\CCDataReaderHelper.cpp ..\CCDatas.cpp ..\CCDecorativeDisplay.cpp ..\CCDisplayFactory.cpp ..\CCDisplayManager.cpp ..\CCInputDelegate.cpp ..\CCProcessBase.cpp ..\CCSGUIReader.cpp ..\CCSkin.cpp ..\CCSpriteFrameCacheHelper.cpp ..\CCSSceneReader.cpp ..\CCTransformHelp.cpp ..\CCTween.cpp ..\CCUtilMath.cpp ..\CocoLoader.cpp ..\DictionaryHelper.cpp ..\TriggerBase.cpp ..\TriggerMng.cpp ..\TriggerObj.cpp ..\WidgetReader\ButtonReader\ButtonReader.cpp ..\WidgetReader\CheckBoxReader\CheckBoxReader.cpp ..\WidgetReader\ImageViewReader\ImageViewReader.cpp ..\WidgetReader\LayoutReader\LayoutReader.cpp ..\WidgetReader\ListViewReader\ListViewReader.cpp ..\WidgetReader\LoadingBarReader\LoadingBarReader.cpp ..\WidgetReader\PageViewReader\PageViewReader.cpp ..\WidgetReader\ScrollViewReader\ScrollViewReader.cpp ..\WidgetReader\SliderReader\SliderReader.cpp ..\WidgetReader\TextAtlasReader\TextAtlasReader.cpp ..\WidgetReader\TextBMFontReader\TextBMFontReader.cpp ..\WidgetReader\TextFieldReader\TextFieldReader.cpp ..\WidgetReader\TextReader\TextReader.cpp ..\WidgetReader\WidgetReader.cpp
+         CCActionTimeline.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         CCFrame.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>..\ActionTimeline\CCFrame.cpp(528): warning C4244: “初始化”: 从“float”转换到“GLubyte”，可能丢失数据
+     1>..\ActionTimeline\CCFrame.cpp(531): warning C4244: “=”: 从“float”转换到“GLubyte”，可能丢失数据
+     1>..\ActionTimeline\CCFrame.cpp(532): warning C4244: “=”: 从“float”转换到“GLubyte”，可能丢失数据
+     1>..\ActionTimeline\CCFrame.cpp(533): warning C4244: “=”: 从“float”转换到“GLubyte”，可能丢失数据
+         CCNodeReader.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         CCActionTimelineCache.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         CCTimeLine.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>..\ActionTimeline\CCTimeLine.cpp(142): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(144): warning C4018: “>=”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(152): warning C4018: “>=”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(164): warning C4018: “>=”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(164): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(169): warning C4018: “>”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(178): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(204): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(211): warning C4018: “>=”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(238): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\ActionTimeline\CCTimeLine.cpp(238): warning C4018: “>=”: 有符号/无符号不匹配
+         CCActionFrame.cpp
+     1>..\CCActionFrame.cpp(335): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>..\CCActionFrame.cpp(340): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>..\CCActionFrame.cpp(345): warning C4244: “参数”: 从“float”转换到“GLubyte”，可能丢失数据
+         CCActionFrameEasing.cpp
+         CCActionManagerEx.cpp
+         CCActionNode.cpp
+     1>E:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>..\CCActionNode.cpp(203): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+         CCActionObject.cpp
+     1>E:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>..\CCActionObject.cpp(193): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+         CCArmature.cpp
+         CCArmatureAnimation.cpp
+     1>..\CCArmatureAnimation.cpp(224): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>..\CCArmatureAnimation.cpp(434): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>..\CCArmatureAnimation.cpp(443): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+         CCArmatureDataManager.cpp
+         CCArmatureDefine.cpp
+         CCBatchNode.cpp
+         CCBone.cpp
+         CCColliderDetector.cpp
+         CCComAttribute.cpp
+         CCComAudio.cpp
+         CCComController.cpp
+         正在生成代码...
+         正在编译...
+         CCComRender.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>..\CCComRender.cpp(216): warning C4996: 'cocos2d::FileUtils::getFileData': 被声明为已否决
+                 e:\spinepartcile\cocos2d\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+                 e:\spinepartcile\cocos2d\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+         CCDataReaderHelper.cpp
+     1>E:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>..\CCDataReaderHelper.cpp(312): warning C4996: 'cocos2d::FileUtils::getFileData': 被声明为已否决
+                 E:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+                 E:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+     1>..\CCDataReaderHelper.cpp(426): warning C4996: 'cocos2d::FileUtils::getFileData': 被声明为已否决
+                 E:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+                 E:\SpinePartcile\cocos2d\cocos\2d\..\..\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+     1>..\CCDataReaderHelper.cpp(919): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(936): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(941): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(950): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(1099): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(1100): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(1101): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(1102): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(1563): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(1582): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(1587): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(1602): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(1767): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(1883): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(1993): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(1997): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2001): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2005): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2009): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2013): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2172): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2224): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2239): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2266): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2271): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2286): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2386): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2425): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2432): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2439): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2446): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2485): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2486): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2509): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2513): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2521): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2525): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2529): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDataReaderHelper.cpp(2533): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         CCDatas.cpp
+     1>..\CCDatas.cpp(126): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCDatas.cpp(127): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+         CCDecorativeDisplay.cpp
+         CCDisplayFactory.cpp
+         CCDisplayManager.cpp
+         CCInputDelegate.cpp
+         CCProcessBase.cpp
+     1>..\CCProcessBase.cpp(128): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>..\CCProcessBase.cpp(154): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+         CCSGUIReader.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>..\CCSGUIReader.cpp(349): warning C4996: 'cocos2d::FileUtils::getFileData': 被声明为已否决
+                 e:\spinepartcile\cocos2d\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+                 e:\spinepartcile\cocos2d\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+     1>..\CCSGUIReader.cpp(743): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>..\CCSGUIReader.cpp(905): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>..\CCSGUIReader.cpp(988): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>..\CCSGUIReader.cpp(1138): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>..\CCSGUIReader.cpp(1212): warning C4068: 未知的杂注
+     1>..\CCSGUIReader.cpp(1245): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCSGUIReader.cpp(1247): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         CCSkin.cpp
+         CCSpriteFrameCacheHelper.cpp
+         CCSSceneReader.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>..\CCSSceneReader.cpp(85): warning C4996: 'cocos2d::FileUtils::getFileData': 被声明为已否决
+                 e:\spinepartcile\cocos2d\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+                 e:\spinepartcile\cocos2d\cocos\platform/CCFileUtils.h(101) : 参见“cocos2d::FileUtils::getFileData”的声明
+     1>..\CCSSceneReader.cpp(513): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCSSceneReader.cpp(518): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCSSceneReader.cpp(523): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>..\CCSSceneReader.cpp(538): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCSSceneReader.cpp(543): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCSSceneReader.cpp(548): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         CCTransformHelp.cpp
+     1>..\CCTransformHelp.cpp(104): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCTransformHelp.cpp(105): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCTransformHelp.cpp(106): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCTransformHelp.cpp(107): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCTransformHelp.cpp(130): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCTransformHelp.cpp(131): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCTransformHelp.cpp(132): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCTransformHelp.cpp(133): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         CCTween.cpp
+     1>..\CCTween.cpp(120): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\CCTween.cpp(147): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\CCTween.cpp(267): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>..\CCTween.cpp(275): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\CCTween.cpp(384): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\CCTween.cpp(385): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\CCTween.cpp(386): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\CCTween.cpp(387): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>..\CCTween.cpp(455): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+         CCUtilMath.cpp
+         CocoLoader.cpp
+         DictionaryHelper.cpp
+         TriggerBase.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         TriggerMng.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>..\TriggerMng.cpp(273): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>..\TriggerMng.cpp(349): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+         TriggerObj.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         正在生成代码...
+         正在编译...
+         ButtonReader.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>..\WidgetReader\ButtonReader\ButtonReader.cpp(226): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+         CheckBoxReader.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         ImageViewReader.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         LayoutReader.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         ListViewReader.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>..\WidgetReader\ListViewReader\ListViewReader.cpp(69): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+         LoadingBarReader.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>..\WidgetReader\LoadingBarReader\LoadingBarReader.cpp(52): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>..\WidgetReader\LoadingBarReader\LoadingBarReader.cpp(99): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>..\WidgetReader\LoadingBarReader\LoadingBarReader.cpp(138): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+         PageViewReader.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         ScrollViewReader.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>..\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(78): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+         SliderReader.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         TextAtlasReader.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>..\WidgetReader\TextAtlasReader\TextAtlasReader.cpp(88): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+         TextBMFontReader.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         TextFieldReader.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         TextReader.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         WidgetReader.cpp
+     1>e:\spinepartcile\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\spinepartcile\cocos2d\cocos\2d/CCLabel.h(276): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+     1>..\WidgetReader\WidgetReader.cpp(90): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\SpinePartcile\Release.win32\libCocosStudio.lib" /NOLOGO /LTCG Release.win32\CCActionTimeline.obj
+         Release.win32\CCFrame.obj
+         Release.win32\CCNodeReader.obj
+         Release.win32\CCActionTimelineCache.obj
+         Release.win32\CCTimeLine.obj
+         Release.win32\CCActionFrame.obj
+         Release.win32\CCActionFrameEasing.obj
+         Release.win32\CCActionManagerEx.obj
+         Release.win32\CCActionNode.obj
+         Release.win32\CCActionObject.obj
+         Release.win32\CCArmature.obj
+         Release.win32\CCArmatureAnimation.obj
+         Release.win32\CCArmatureDataManager.obj
+         Release.win32\CCArmatureDefine.obj
+         Release.win32\CCBatchNode.obj
+         Release.win32\CCBone.obj
+         Release.win32\CCColliderDetector.obj
+         Release.win32\CCComAttribute.obj
+         Release.win32\CCComAudio.obj
+         Release.win32\CCComController.obj
+         Release.win32\CCComRender.obj
+         Release.win32\CCDataReaderHelper.obj
+         Release.win32\CCDatas.obj
+         Release.win32\CCDecorativeDisplay.obj
+         Release.win32\CCDisplayFactory.obj
+         Release.win32\CCDisplayManager.obj
+         Release.win32\CCInputDelegate.obj
+         Release.win32\CCProcessBase.obj
+         Release.win32\CCSGUIReader.obj
+         Release.win32\CCSkin.obj
+         Release.win32\CCSpriteFrameCacheHelper.obj
+         Release.win32\CCSSceneReader.obj
+         Release.win32\CCTransformHelp.obj
+         Release.win32\CCTween.obj
+         Release.win32\CCUtilMath.obj
+         Release.win32\CocoLoader.obj
+         Release.win32\DictionaryHelper.obj
+         Release.win32\TriggerBase.obj
+         Release.win32\TriggerMng.obj
+         Release.win32\TriggerObj.obj
+         Release.win32\ButtonReader.obj
+         Release.win32\CheckBoxReader.obj
+         Release.win32\ImageViewReader.obj
+         Release.win32\LayoutReader.obj
+         Release.win32\ListViewReader.obj
+         Release.win32\LoadingBarReader.obj
+         Release.win32\PageViewReader.obj
+         Release.win32\ScrollViewReader.obj
+         Release.win32\SliderReader.obj
+         Release.win32\TextAtlasReader.obj
+         Release.win32\TextBMFontReader.obj
+         Release.win32\TextFieldReader.obj
+         Release.win32\TextReader.obj
+         Release.win32\WidgetReader.obj
+         libCocosStudio.vcxproj -> E:\SpinePartcile\Release.win32\libCocosStudio.lib
+     1>已完成生成项目“E:\SpinePartcile\cocos2d\cocos\editor-support\cocostudio\proj.win32\libCocosStudio.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:02:37.88

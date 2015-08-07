@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{42d50d95-07a7-4731-969f-68e217db6316}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{94a80ac5-dbe9-43a3-8183-a6c48b3b625f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\timeline">
+      <UniqueIdentifier>{132c1c3e-1b70-472c-8fc3-60ed95629e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\timeline">
+      <UniqueIdentifier>{5ec9fa8b-acd5-4b5b-9ea9-90c341408afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{18077727-902d-4d97-9909-f2aede3df232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cocosHelper">
+      <UniqueIdentifier>{c9c6dfc3-33b9-4445-bcea-94fa20184442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cocosHelper">
+      <UniqueIdentifier>{0e1ec498-2712-40fd-a0e2-45dc60ca2a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\datamgr">
+      <UniqueIdentifier>{cccaaeb9-9f37-4262-800d-be15ac1b9345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\itemTree">
+      <UniqueIdentifier>{5e67996d-7c40-49bc-8de2-5a77bdac8a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\itemTree">
+      <UniqueIdentifier>{4122f398-ab1d-4d69-95b4-18da5e01cacd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\property">
+      <UniqueIdentifier>{13cf78b2-be42-498c-8d7d-4e56766e2d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\propertyBrowser">
+      <UniqueIdentifier>{eb4ce0b2-e6b3-42b0-851a-0170ac201133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\propertyBrowser">
+      <UniqueIdentifier>{224f9290-b6e2-4963-abb4-f02119b5a5aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\property">
+      <UniqueIdentifier>{1d59c7dc-9828-48e3-a66d-a23db2ab3fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\datamgr">
+      <UniqueIdentifier>{f2d1fc44-0730-4427-9852-69be20f5f425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\command">
+      <UniqueIdentifier>{dc8fc464-08fa-4735-944f-8fecd0436ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\command">
+      <UniqueIdentifier>{21da68a1-5fb6-4570-88af-f3e139457407}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cocoseditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_cocoseditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_cocoseditor.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCQApplication.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCQApplication.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCQGLWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCQGLWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocosQtPort\CCQApplication.cpp">
+      <Filter>Source Files\cocosHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocosQtPort\CCQGLView.cpp">
+      <Filter>Source Files\cocosHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocosQtPort\CCQGLWidget.cpp">
+      <Filter>Source Files\cocosHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="propertyBrowser\qtbuttonpropertybrowser.cpp">
+      <Filter>Source Files\propertyBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="propertyBrowser\qtgroupboxpropertybrowser.cpp">
+      <Filter>Source Files\propertyBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="propertyBrowser\qtpropertybrowser.cpp">
+      <Filter>Source Files\propertyBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="propertyBrowser\qtpropertybrowserutils.cpp">
+      <Filter>Source Files\propertyBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="propertyBrowser\qtvariantproperty.cpp">
+      <Filter>Source Files\propertyBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtbuttonpropertybrowser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtbuttonpropertybrowser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qteditorfactory.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qteditorfactory.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtgroupboxpropertybrowser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtgroupboxpropertybrowser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtpropertybrowser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtpropertybrowser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtpropertybrowserutils_p.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtpropertybrowserutils_p.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtpropertymanager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtpropertymanager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qttreepropertybrowser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qttreepropertybrowser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtvariantproperty.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtvariantproperty.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_qtpropertybrowser.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="propertyBrowser\qteditorfactory.cpp">
+      <Filter>Source Files\propertyBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="propertyBrowser\qtpropertymanager.cpp">
+      <Filter>Source Files\propertyBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="propertyBrowser\qttreepropertybrowser.cpp">
+      <Filter>Source Files\propertyBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocosQtPort\CocosHelper.cpp">
+      <Filter>Source Files\cocosHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DragRect.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DocumentMgr.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ViewMgr.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ViewMgr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ViewMgr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cocoseditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ActionListWidget.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DocumentMgr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DocumentMgr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ActionListWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ActionListWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PropertiesMgr.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PropertiesMgr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PropertiesMgr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpineParticle.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="cocoseditor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cocoseditor.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cocoseditor.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\CocosQtPort\CCQGLWidget.h">
+      <Filter>Header Files\cocosHelper</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\CocosQtPort\CCQApplication.h">
+      <Filter>Header Files\cocosHelper</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DataStruct.h">
+      <Filter>Header Files\datamgr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Debug\qteditorfactory.moc">
+      <Filter>Generated Files\Debug</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Debug\qtpropertymanager.moc">
+      <Filter>Generated Files\Debug</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Debug\qttreepropertybrowser.moc">
+      <Filter>Generated Files\Debug</Filter>
+    </CustomBuild>
+    <CustomBuild Include="propertyBrowser\qtbuttonpropertybrowser.h">
+      <Filter>Header Files\propertyBrowser</Filter>
+    </CustomBuild>
+    <CustomBuild Include="propertyBrowser\qteditorfactory.h">
+      <Filter>Header Files\propertyBrowser</Filter>
+    </CustomBuild>
+    <CustomBuild Include="propertyBrowser\qtgroupboxpropertybrowser.h">
+      <Filter>Header Files\propertyBrowser</Filter>
+    </CustomBuild>
+    <CustomBuild Include="propertyBrowser\qtpropertybrowser.h">
+      <Filter>Header Files\propertyBrowser</Filter>
+    </CustomBuild>
+    <CustomBuild Include="propertyBrowser\qtpropertybrowserutils_p.h">
+      <Filter>Header Files\propertyBrowser</Filter>
+    </CustomBuild>
+    <CustomBuild Include="propertyBrowser\qtpropertymanager.h">
+      <Filter>Header Files\propertyBrowser</Filter>
+    </CustomBuild>
+    <CustomBuild Include="propertyBrowser\qttreepropertybrowser.h">
+      <Filter>Header Files\propertyBrowser</Filter>
+    </CustomBuild>
+    <CustomBuild Include="propertyBrowser\qtvariantproperty.h">
+      <Filter>Header Files\propertyBrowser</Filter>
+    </CustomBuild>
+    <CustomBuild Include="propertyBrowser\Resources\qtpropertybrowser.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Release\qtpropertymanager.moc">
+      <Filter>Generated Files\Release</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\ViewMgr.h">
+      <Filter>Classes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\ActionListWidget.h">
+      <Filter>Classes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\DocumentMgr.h">
+      <Filter>Classes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\PropertiesMgr.h">
+      <Filter>Classes</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_cocoseditor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocosQtPort\CCQGLView.h">
+      <Filter>Header Files\cocosHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="preInclude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocosQtPort\CocosHelper.h">
+      <Filter>Header Files\cocosHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DragRect.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpineParticle.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CocosEditor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="propertyBrowser\Resources\images\cursor-arrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="propertyBrowser\Resources\images\cursor-busy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="propertyBrowser\Resources\images\cursor-closedhand.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="propertyBrowser\Resources\images\cursor-cross.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="propertyBrowser\Resources\images\cursor-forbidden.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="propertyBrowser\Resources\images\cursor-hand.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="propertyBrowser\Resources\images\cursor-hsplit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="propertyBrowser\Resources\images\cursor-ibeam.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="propertyBrowser\Resources\images\cursor-openhand.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="propertyBrowser\Resources\images\cursor-sizeall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="propertyBrowser\Resources\images\cursor-sizeb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="propertyBrowser\Resources\images\cursor-sizef.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="propertyBrowser\Resources\images\cursor-sizeh.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="propertyBrowser\Resources\images\cursor-sizev.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="propertyBrowser\Resources\images\cursor-uparrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="propertyBrowser\Resources\images\cursor-vsplit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="propertyBrowser\Resources\images\cursor-wait.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="propertyBrowser\Resources\images\cursor-whatsthis.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GeneratedFiles\Release\qteditorfactory.moc">
+      <Filter>Generated Files\Release</Filter>
+    </None>
+    <None Include="GeneratedFiles\Release\qttreepropertybrowser.moc">
+      <Filter>Generated Files\Release</Filter>
+    </None>
+  </ItemGroup>
+</Project>
